@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ubuntu",sans-serif;
+    box-sizing: border-box;
+  }
+  
+header{
+    margin: 15% 0;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 1.75em;
+}
+
+.menu-item{
+    float: left;
+    margin: 2.5% 10%;
+    background-color: #b9abab;
+    border: 1px solid black;
+}
+
+.menu-name{
+    border: 1px solid black;
+    width: 35%;
+    position: relative;
+    left: 65%;
+    top: 0;
+}
+
+.menu .menu-item:nth-child(1) .menu-name{
+    background-color: rgb(187, 131, 162);
+}
+
+.menu .menu-item:nth-child(2) .menu-name{
+    background-color: rgb(201, 43, 56);
+}
+
+.menu .menu-item:nth-child(3) .menu-name{
+    background-color: rgb(230, 227, 52);
+}
+
+.menu-name h3{
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.menu .menu-item:nth-child(2) .menu-name h3{
+    color: #f1f1f1;
+}
+
+.menu-item .description {
+    padding: 15px;
+}
+
+
+@media only screen and (min-width:992px) {
+    
+    header{
+        margin: 2.5% 0;
+    }
+
+
+    .menu-item{
+        margin: 1% 2%;
+        width: 29%;
+    }
+
+    .menu-name{
+        padding: 3px;
+    }
+
+
+} 
+
+@media only screen and  (min-width:768px) and (max-width: 991px) {
+  
+    header{
+        margin: 5% 0;
+    }
+
+
+    .menu-item{
+        margin: 2% 2%;
+    }
+
+    .menu-item:nth-child(1){
+        width: 46%;
+    }
+
+    .menu-item:nth-child(2){
+        width: 46%;
+    }
+
+
+    .menu-name{
+        padding: 3px;
+    }
+
+
+
+} 
