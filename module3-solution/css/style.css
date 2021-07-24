@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  
+}
+
 .row p {
     font-size: 0.7rem;
     
@@ -5,7 +10,6 @@
 
 .product{
   min-height: 700px;
-  box-sizing: border-box;
   background-clip:padding-box;
 }   
 
